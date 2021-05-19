@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counties</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+        <nav class="site-nav">
+            <div class="nav__top">
+            <h1 class="nav__title">Where in the world?</h1>
+            <p class="nav__text">Dark Mode</p>
+        </div>
+        </nav>
+    </div>
+    </header>
+
+    <main class="site-main">
+        <div class="container">
+        <div class="form-grow">
+            <form class="country-form" action="https://echo.htmlacademy.ru" method="POST">
+            <label>
+                <input class="search-country" type="text" name="country" id="flags" list="counrty-list" placeholder="search for a country...">
+            </label>
+            <div class="country-select">
+            <select class="select-countr" name="country" id="select-country" aria-label="counrties">
+            </div>
+                <option value="" selected disabled>Filter by Region</option>
+                <option value="">Africa</option>
+                <option value="">America</option>
+                <option value="">Asia</option>
+                <option value="">Europe</option>
+                <option value="">Oceania</option>
+            </select>
+            </form>
+        </div>
+
+        <section class="country-flag">
+            <ul class="country__list">
+                <li class="country__item">
+                    <img src="img/germany.png" alt="flag Germany" width="267" height="160">
+                    <div class="content__country">
+                    <h2 class="flag-country__title">Germany</h2>
+                    <p class="flag-country__text"><span>Population:</span>81,770,900</p>
+                    <p class="flag-country__text"><span>Region:</span>Europe</p>
+                    <p class="flag-country__text"><span>Capital:</span>Berlin</p>
+                </div>
+                </li>
+            </ul>
+            <ul class="country__list">
+                <li class="country__item">
+                    <img src="img/usa.png" alt="flag USA" width="267" height="160">
+                    <div class="content__country">
+                    <h2 class="flag-country__title">United States of America</h2>
+                    <p class="flag-country__text"><span>Population:</span>323,947,000</p>
+                    <p class="flag-country__text"><span>Region:</span>Americas</p>
+                    <p class="flag-country__text"><span>Capital:</span>Washington, D.C</p>
+                </div>
+                </li>
+            </ul>
+            <ul class="country__list">
+                <li class="country__item">
+                    <img src="img/brazil.png" alt="flag Brasil" width="267" height="160">
+                    <div class="content__country">
+                    <h2 class="flag-country__title">Brasil</h2>
+                    <p class="flag-country__text"><span>Population:</span>206,135,893</p>
+                    <p class="flag-country__text"><span>Region:</span>Americas</p>
+                    <p class="flag-country__text"><span>Capital:</span>Brasilia</p>
+                </div>
+                </li>
+            </ul>
+            <ul class="country__list">
+                <li class="country__item">
+                    <img src="img/iceland.png" alt="flag Iceland" width="267" height="160">
+                    <div class="content__country">
+                    <h2 class="flag-country__title">Iceland</h2>
+                    <p class="flag-country__text"><span>Population:</span>334,300</p>
+                    <p class="flag-country__text"><span>Region:</span>Europe</p>
+                    <p class="flag-country__text"><span>Capital:</span>Reykjavik</p>
+                </div>
+                </li>
+            </ul>
+            <ul class="country__list">
+                <li class="country__item">
+                    <img src="img/afghanistan.png" alt="flag afghanistan" width="267" height="160">
+                    <div class="content__country">
+                    <h2 class="flag-country__title">Afghanistan</h2>
+                    <p class="flag-country__text"><span>Population:</span>27,657,145</p>
+                    <p class="flag-country__text"><span>Region:</span>Asia</p>
+                    <p class="flag-country__text"><span>Capital:</span>Kabul</p>
+                </div>
+                </li>
+            </ul>
+            <ul class="country__list">
+                <li class="country__item">
+                    <img src="img/aland-icland.png" alt="flag Aland Island" width="267" height="160">
+                    <div class="content__country">
+                    <h2 class="flag-country__title">Åland Islands</h2>
+                    <p class="flag-country__text"><span>Population:</span>28,875</p>
+                    <p class="flag-country__text"><span>Region:</span>Europe</p>
+                    <p class="flag-country__text"><span>Capital:</span>Mirehamn</p>
+                </div>
+                </li>
+            </ul>
+            <ul class="country__list">
+                <li class="country__item">
+                    <img src="img/albania.png" alt="flag Albania" width="267" height="160">
+                    <div class="content__country">
+                    <h2 class="flag-country__title">Albania</h2>
+                    <p class="flag-country__text"><span>Population:</span>2,886,026</p>
+                    <p class="flag-country__text"><span>Region:</span>Europe</p>
+                    <p class="flag-country__text"><span>Capital:</span>Tirana</p>
+                </div>
+                </li>
+            </ul>
+            <ul class="country__list">
+                <li class="country__item">
+                    <img src="img/algeria.png" alt="flag Algeria" width="267" height="160">
+                    <div class="content__country">
+                    <h2 class="flag-country__title">Algeria</h2>
+                    <p class="flag-country__text"><span>Population:</span>40,400,000</p>
+                    <p class="flag-country__text"><span>Region:</span>Africa</p>
+                    <p class="flag-country__text"><span>Capital:</span>Algeries</p>
+                </div>
+                </li>
+            </ul>
+        </section>
+
+    </div>
+    </main>
+</body>
+</html>
